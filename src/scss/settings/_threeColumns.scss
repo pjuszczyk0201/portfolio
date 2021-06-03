@@ -1,0 +1,49 @@
+@import "colors";
+
+.columns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent url('../../assets/3ColumnsBg.png') 0 0 no-repeat padding-box;
+  opacity: 1;
+  height: 384px;
+  margin-bottom: 55px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 206px;
+  width: 334px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+strong {
+  text-align: center;
+  font: normal normal 300 90px/122px Open Sans;
+  letter-spacing: 0;
+  color: $numbersColor;
+  opacity: 1;
+  margin-bottom: 10px;
+}
+
+h2 {
+  text-align: center;
+  font: normal normal normal 18px/30px Open Sans;
+  letter-spacing: -0.36px;
+  color: $fontColor;
+  opacity: 1;
+  margin-bottom: 28px;
+}
+
+p {
+  text-align: center;
+  font: normal normal 300 16px/18px Merriweather;
+  letter-spacing: -0.32px;
+  color: $fontColor;
+  opacity: 1;
+}

@@ -1,0 +1,19 @@
+@import "colors";
+
+.headers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  opacity: 1;
+  text-align: center;
+  font: normal normal normal 38px/55px Open Sans;
+  letter-spacing: -0.76px;
+  color: $fontColor;
+  width: 674px;
+  height: 107px;
+}
+

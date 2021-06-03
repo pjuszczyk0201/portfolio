@@ -1,0 +1,27 @@
+button {
+  border: 0.75px solid #3C3C3C;
+  opacity: 1;
+  width: 310px;
+  height: 120px;
+  margin-right: 44px;
+  text-align: center;
+  font: normal normal 300 36px/45px Open Sans;
+  letter-spacing: 0;
+  color: $fontColor;
+  background-color: white;
+}
+
+.start-buttons_button {
+  text-align: center;
+  font: normal normal 300 36px/45px Open Sans;
+  letter-spacing: 0;
+  color: $fontColor;
+  opacity: 1;
+}
+
+.start-buttons {
+  margin-top: 65px;
+  display: flex;
+  justify-content: center;
+}
+
